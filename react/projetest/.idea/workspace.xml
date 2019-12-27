@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4904d14-15c0-477d-9efb-e7ffae2af5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/charte.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/event.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Federation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Federation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Formation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Formation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/event.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/event.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577470943102</updated>
       <workItem from="1577470946978" duration="5752000" />
-      <workItem from="1577478632620" duration="3707000" />
+      <workItem from="1577478632620" duration="6477000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1577478764942</created>
@@ -97,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577478912696</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init 2">
+      <created>1577485757514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577485757514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,25 +103,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577478709505">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="142" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1577478709505" />
-    <state x="255" y="0" width="855" height="732" key="CommitChangelistDialog2" timestamp="1577478912625">
+    <state x="417" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577487378816">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="255" y="0" width="855" height="732" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577478912625" />
+    <state x="417" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.732@0.0.1366.732" timestamp="1577487378816" />
+    <state x="255" y="0" width="855" height="736" key="CommitChangelistDialog2" timestamp="1577485757417">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="255" y="0" width="855" height="736" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577485757417" />
     <state x="467" y="122" key="FileChooserDialogImpl" timestamp="1577475922969">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="467" y="122" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1577475922969" />
-    <state x="279" y="100" key="Vcs.Push.Dialog.v2" timestamp="1577478915694">
+    <state x="279" y="100" key="Vcs.Push.Dialog.v2" timestamp="1577485759294">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="279" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1577478915694" />
+    <state x="279" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1577485759294" />
     <state x="476" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577482861602">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

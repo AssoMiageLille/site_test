@@ -42,7 +42,8 @@ ReactDOM.render(
                 render={props => <Presentation {...props} />}
             />
 
-            <Redirect to="/"/>
+
+
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")
