@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from "./Header";
-import Footer from "./Footer";
+import './css/App.css';
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
+import style from "./css/charte.less" ;
 
 
 class App extends Component {

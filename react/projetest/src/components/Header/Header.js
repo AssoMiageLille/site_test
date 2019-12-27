@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import banniere from "../img/banniere.png";
+import banniere from "../../../img/banniere.png";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 
 class Header extends Component {
     render() {

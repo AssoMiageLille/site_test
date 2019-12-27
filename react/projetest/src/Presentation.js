@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import trombi from "../img/trombi.png";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
-import Footer from "./Footer";
+import Footer from "./components/Footer/Footer";
+import "./css/charte.less" ;
+
 
 class Presentation extends Component {
     render() {

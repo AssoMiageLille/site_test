@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
-import Footer from "./Footer";
+import Footer from "./components/Footer/Footer";
+import "./css/charte.less" ;
 
 class Federation extends Component {
     render() {

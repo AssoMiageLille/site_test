@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import './index.css';
+import './css/index.css';
 import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import Federation from "./Federation";
 import Formation from "./Formation";
@@ -17,7 +17,7 @@ ReactDOM.render(
                 exact
                 render={props => <App {...props} />}/>
             <Route
-                path="/Contact"
+                path="/contact"
                 exact
                 render={props => <Contact {...props} />}
             />

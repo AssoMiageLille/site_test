@@ -1,47 +1,56 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
-import Footer from "./Footer";
+import Footer from "./components/Footer/Footer";
+import "./css/charte.less" ;
+import "./css/event.css";
 
 class Event extends Component {
     render() {
         return (
+
         <div>
             <div>
                 <h2> Nos évènements récurrents </h2>
             </div>
-            <section className="ligne" id="photos">
+            <Container id="photos">
                 <div className="container">
-                    <div id="picturesBoard">
-                        <figure>
-                            <img src="../img/amphi.png" title="Amphi" alt="Amphi"/>
-                            <figcaption>Amphi de présentation</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="../img/jlmi.jpg" title="JLMI" alt="JLMI"/>
+                    <Row>
+                        <Col>
+                            <img src="../img/amphi.png" title="Amphi" alt="Amphi" width="200vh"/>
+                            <p>Amphi de présentation</p>
+                        </Col>
+
+                        <Col>
+                            <img src="../img/jlmi.jpg" title="JLMI" alt="JLMI"  width="200vh"/>
                             <figcaption>Journée Lilloise de la MIAGE et de l'Informatique</figcaption>
-                        </figure>
-                        <figure>
+                        </Col>
+
+                        <Col>
                             <img src="../img/campuse.jpg" title="Campus en fête" alt="Campus en fête"/>
                             <figcaption>Campus en fête</figcaption>
-                        </figure>
-                        <figure>
+                        </Col>
+
+                        <Col>
                             <img src="../img/noel.jpg" title="Soirée de Noël" alt="Soirée de Noël"/>
                             <figcaption>Soirée de Noël</figcaption>
-                        </figure>
-                        <figure>
+                        </Col>
+
+                        <Col>
                             <img src="../img/election.jpg" title="election" alt="election"/>
                             <figcaption>Election du nouveau bureau</figcaption>
-                        </figure>
-                        <figure>
+                        </Col>
+
+                        <Col>
                             <img src="../img/laser.jpg" title="lasergame" alt="lasergame"/>
                             <figcaption>Laser Game</figcaption>
-                        </figure>
+                        </Col>
+                    </Row>
 
-                    </div>
                 </div>
-            </section>
+            </Container>
             <Footer></Footer>
         </div>
+
         );
     }
 }
