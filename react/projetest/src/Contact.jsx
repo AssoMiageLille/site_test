@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, NavItem, NavLink, Row, Button, Card, CardHeader} from "reactstrap";
 import Footer from "./components/Footer/Footer";
-import "./css/charte.less";
 import {Link} from "react-router-dom";
+import Header from "./components/Header/Header";
 
 
 class Contact extends Component {
@@ -24,6 +24,7 @@ class Contact extends Component {
         const {email, entreprise,nom} = this.state;
         return (
             <div>
+                <Header/>
                 <section className="ligne" id="contact">
                     <div className="container">
                         <Col>

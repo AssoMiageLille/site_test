@@ -1,14 +1,14 @@
 import React, {Component} from "react";
-import trombi from "../img/trombi.png";
+import trombi from "./components/img/trombi.png";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
 import Footer from "./components/Footer/Footer";
-import "./css/charte.less" ;
-
+import Header from "./components/Header/Header";
 
 class Presentation extends Component {
     render() {
         return (
             <section className="ligne" id="bureau">
+                <Header/>
                 <div className="container">
                     <img src={trombi} alt="trombinoscope asso MIAGE Lille 2019" id="trombi" width="500vh"/>
                     <div id="bureau_desc">

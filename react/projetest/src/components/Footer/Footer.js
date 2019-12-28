@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
-import "../../css/charte.less" ;
 
 
 class Footer extends Component {

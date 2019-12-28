@@ -3,18 +3,63 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "0.9.5"
+    "classnames": "2.2.6",
+    "headroom.js": "0.9.4",
+    "jquery": "^3.4.1",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "react": "16.8.6",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.6",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.0",
+    "react-split-pane": "^0.1.87",
+    "react-useanimations": "^1.2.10",
+    "reactstrap": "8.0.0"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "argon",
+    "argon-react",
+    "design",
+    "design-react",
+    "argon-design",
+    "argon-design-react",
+    "kit",
+    "react-kit",
+    "argon-design-system",
+    "argon-design-system-react",
+    "design-system-react"
+  ],
+  "author": "Asso MIAGE Lille",
+  "license": "MIAGE",
+  "bugs": {
+    "url": ""
   },
   "devDependencies": {
-    "react-router-dom": "^5.1.2",
-    "reactstrap": "^8.2.0"
+    "@types/googlemaps": "3.30.19",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.8.16",
+    "typescript": "3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

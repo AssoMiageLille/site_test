@@ -1,0 +1,21 @@
+.header{
+    alignment: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2747;
+    color: white;
+}
+
+.navigation{
+    text-align-all: center;
+}
+
+.lien{
+    color: #CA182F;
+    text-align: center;
+    padding: 20px 20px 20px 20px ;
+}
+
+.lien:hover{
+    background-color: white;
+}

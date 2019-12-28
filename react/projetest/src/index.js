@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import './css/index.css';
 import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import Federation from "./Federation";
 import Formation from "./Formation";
 import Presentation from "./Presentation";
 import Contact from "./Contact";
 import Event from "./Event";
-import App from "./App";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -15,7 +13,7 @@ ReactDOM.render(
             <Route
                 path="/"
                 exact
-                render={props => <App {...props} />}/>
+                render={props => <Presentation {...props} />}/>
             <Route
                 path="/contact"
                 exact

@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Col, Container, Nav, NavItem, NavLink, Row} from "reactstrap";
 import Footer from "./components/Footer/Footer";
-import "./css/charte.less" ;
+import Header from "./components/Header/Header";
 
 
 class Formation extends Component {
@@ -9,6 +9,7 @@ class Formation extends Component {
         return (
 
             <section className="ligne" id="formation">
+                <Header/>
                 <div className="container">
                     <h2>Formation</h2>
                 </div>
