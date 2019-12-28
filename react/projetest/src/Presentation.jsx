@@ -10,6 +10,16 @@ class Presentation extends Component {
             <section className="ligne" id="bureau">
                 <Header/>
                 <div className="container">
+                    <div className = "col-lg-8 col-lg-offset-2" >
+                        <p> L'asso MIAGE a été fondée le 15 avril 1977 par trois étudiants de la formation Méthodes Informatiques Appliquées à la Gestion
+                            des Entreprises, à l'Université de Lille.
+                            <br/>
+                            Elle a vocation à faciliter la communication entre les étudiants,
+                            organiser des évènements et assurer la reconnaissance professionnelle
+                            de la formation.
+                        </p>
+                    </div>
+
                     <img src={trombi} alt="trombinoscope asso MIAGE Lille 2019" id="trombi" width="500vh"/>
                     <div id="bureau_desc">
                         <h2>Bureau 2019</h2>

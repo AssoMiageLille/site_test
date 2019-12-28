@@ -1,19 +1,29 @@
 .header{
     alignment: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #1b2747;
     color: white;
+
+}
+.haut{
+    display: inline-flex;
+
 }
 
 .navigation{
-    text-align-all: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table-cell;
 }
 
 .lien{
+    float: left;
     color: #CA182F;
     text-align: center;
-    padding: 20px 20px 20px 20px ;
+    padding: 14px 16px ;
+    display: ;
 }
 
 .lien:hover{
