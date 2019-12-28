@@ -14,9 +14,13 @@ class Header extends Component {
                         textAlign:"center"
                     }}>Association MIAGE Lille</h2>
                 </div>
+                <div>
                 <nav className="navigation">
                     <div className="lien">
                         <Link to="/presentation"
+                              style={{
+                                  textDecoration :"none",
+                              }}
                         >
                             Accueil
                         </Link>
@@ -24,30 +28,42 @@ class Header extends Component {
                     <div className="lien">
                         <Link
                               to="/formation"
+                              style={{
+                                  textDecoration :"none",
+                              }}
                         >
                             La MIAGE
                         </Link>
                     </div>
                     <div className="lien">
                         <Link to="/event"
+                              style={{
+                                  textDecoration :"none",
+                              }}
                         >
-                            Nos évènements
+                            Evènements
                         </Link>
                     </div>
                     <div className="lien">
                         <Link to="/federation"
+                              style={{
+                                  textDecoration :"none",
+                              }}
                         >
                             Nos fédérations
                         </Link>
                     </div>
                     <div className="lien">
                         <Link to="/contact"
+                              style={{
+                                  textDecoration :"none",
+                              }}
                         >
-                            Contactez-nous !
+                            Contactez-nous
                         </Link>
                     </div>
                 </nav>
-
+                </div>
             </div>
         );
     }
